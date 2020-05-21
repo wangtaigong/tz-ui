@@ -1,6 +1,7 @@
 <template>
   <div>
     {{greet}}
+    <tz-Button></tz-Button>
   </div>
 </template>
 
