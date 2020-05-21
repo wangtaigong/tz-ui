@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import { Button } from '../packages/tzui.js'
+import tzui from '../packages/tzui'
 
-Vue.use(Button)
+Vue.use(tzui)
 
 new Vue({
   render: h => h(App)

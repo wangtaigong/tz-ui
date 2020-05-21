@@ -1,7 +1,7 @@
 <template>
   <div>
     {{greet}}
-    <tz-Button></tz-Button>
+    <tz-button>11</tz-button>
   </div>
 </template>
 

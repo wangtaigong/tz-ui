@@ -4,7 +4,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    tzui: './packages/tzui.js'
+    tzui: './packages/tzui/index.js'
   },
   module: {
     rules: [
@@ -29,7 +29,7 @@ module.exports = {
   ],
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, '../../lib')
+    path: path.resolve(__dirname, '../../packages/tzui/dist')
   },
   optimization: {
     splitChunks: {

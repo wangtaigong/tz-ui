@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config ./build/webpack.dev.js",
     "build": "webpack --config ./build/webpack.prod.js",
-    "build:pkg": "webpack --config ./build/lib/webpack.lib.js",
+    "build:pkg": "webpack --config ./build/pkg/webpack.pkg.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

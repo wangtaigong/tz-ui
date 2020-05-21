@@ -1,16 +1,22 @@
 <template>
   <button @click="handleClick">
-    buttonjfla;jf;aslj
-    <!-- <slot></slot>   -->
+    {{text}}
   </button>
 </template>
 
 <script>
 export default {
-  name: 'tz-Button',
+  name: 'tz-button',
+  props: {
+    text: {
+      type: String,
+      default: '默认按钮'
+    }
+  },
   methods: {
-    handleClick () {
-      console.log('clicked button')
+    handleClick ($event) {
+      this.$emit('click', $event)
+      console.log($event)
     }
   }
 }

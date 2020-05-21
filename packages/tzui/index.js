@@ -1,4 +1,4 @@
-import Button from './button/index.js'
+import Button from '../button'
 
 const componentList = [
   Button
@@ -15,7 +15,7 @@ if (window && window.Vue) {
   install(window.Vue)
 }
 
-export {
+export default {
   install,
   Button
 }
