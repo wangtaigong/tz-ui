@@ -13,6 +13,10 @@ module.exports = {
         loader: 'vue-loader'
       },
       {
+        test: /\.(css|less)$/i,
+        use: ['style-loader', 'css-loader', 'less-loader'],
+      },
+      {
         test: /\.(gif|jpg|png|woff|svg|eot|ttf|ico)\??.*$/,
         use: {
           loader: 'url-loader',

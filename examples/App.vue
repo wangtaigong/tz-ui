@@ -1,17 +1,11 @@
 <template>
-  <div>
-    {{greet}}
-    <tz-button>11</tz-button>
-  </div>
+   <div>
+      <router-view></router-view>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
-  data () {
-    return {
-      greet: 'Hello World'
-    }
-  }
+  name: 'App'
 }
 </script>
