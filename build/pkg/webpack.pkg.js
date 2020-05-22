@@ -40,6 +40,12 @@ module.exports = {
             limit: 1024
           }
         }
+      },
+      {
+        enforce: 'pre',
+        test: /\.(js|vue)$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/
       }
     ]
   },

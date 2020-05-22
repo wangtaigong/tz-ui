@@ -27,6 +27,12 @@ module.exports = merge(common, {
           'css-loader',
           'less-loader'
         ]
+      },
+      {
+        enforce: 'pre',
+        test: /\.(js|vue)$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/
       }
     ]
   }
