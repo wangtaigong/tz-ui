@@ -15,6 +15,9 @@
     <tz-button size="large" type="primary">primary</tz-button>
     <tz-button size="large" type="danger">danger</tz-button>
     <tz-button size="large" type="danger" disabled>disabled</tz-button>
+    <tz-button size="large" type="default" plain>plain default</tz-button>
+    <tz-button size="large" type="primary" plain>plain primary</tz-button>
+    <tz-button size="large" type="danger" plain>plain danger</tz-button>
   </div>
 </template>
 

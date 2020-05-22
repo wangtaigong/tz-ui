@@ -43,6 +43,25 @@
     background-color: #ef4f4f;
   }
 
+  &-default-plain {
+    border: 1px solid #5a5a5a;
+    background-color: transparent;
+    box-shadow: none;
+    color: #5a5a5a;
+  }
+
+  &-primary-plain {
+    border: 1px solid #26a2ff;
+    background-color: transparent;
+    color: #26a2ff;
+  }
+
+  &-danger-plain {
+    border: 1px solid #ef4f4f;
+    background-color: transparent;
+    color: #ef4f4f;
+  }
+
   &-small {
     display: inline-block;
     font-size: 14px;
@@ -85,6 +104,10 @@ export default {
       type: String,
       default: '默认按钮'
     },
+    plain: {
+      type: Boolean,
+      default: false
+    },
     disabled: {
       type: Boolean,
       default: false
@@ -110,6 +133,7 @@ export default {
         `${prefixCls}`,
         `${prefixCls}-${this.disabled ? 'disabled' : ''}`,
         `${prefixCls}-${this.type}`,
+        `${prefixCls}-${this.type}-${this.plain ? 'plain' : ''}`,
         `${prefixCls}-${this.size}`
       ]
     }
