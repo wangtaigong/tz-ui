@@ -8,6 +8,7 @@
     "dev": "webpack-dev-server --config ./build/webpack.dev.js",
     "build": "webpack --config ./build/webpack.prod.js",
     "build:pkg": "webpack --config ./build/pkg/webpack.pkg.js",
+    "esinit": "./node_modules/.bin/eslint --init",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

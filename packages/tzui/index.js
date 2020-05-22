@@ -1,7 +1,9 @@
 import Button from '../button'
+import cell from '../cell'
 
 const componentList = [
-  Button
+  Button,
+  cell
 ]
 
 const install = (Vue) => {
@@ -17,5 +19,6 @@ if (window && window.Vue) {
 
 export default {
   install,
-  Button
+  Button,
+  cell
 }

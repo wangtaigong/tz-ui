@@ -2412,7 +2412,7 @@ eslint-visitor-keys@^1.1.0:
 
 eslint@^7.0.0:
   version "7.0.0"
-  resolved "https://registry.npm.taobao.org/eslint/download/eslint-7.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint%2Fdownload%2Feslint-7.0.0.tgz#c35dfd04a4372110bd78c69a8d79864273919a08"
+  resolved "https://registry.npm.taobao.org/eslint/download/eslint-7.0.0.tgz#c35dfd04a4372110bd78c69a8d79864273919a08"
   integrity sha1-w139BKQ3IRC9eMaajXmGQnORmgg=
   dependencies:
     "@babel/code-frame" "^7.0.0"
