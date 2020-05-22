@@ -3,7 +3,7 @@
 ## 引入
 
 ```html
-import { tz-button } from 'mint-ui'
+import { tz-button } from 'tz-ui'
 或者
 <tz-button></tz-button>
 ```
