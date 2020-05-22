@@ -8,13 +8,13 @@
 
 <template>
   <div class="container">
-    <tz-button size="small">按钮-小</tz-button>
-    <tz-button size="normal">按钮-中</tz-button>
-    <tz-button size="large">按钮-大</tz-button>
-    <tz-button size="large" type="default">按钮-大-default</tz-button>
-    <tz-button size="large" type="primary">按钮-大-primary</tz-button>
-    <tz-button size="large" type="danger">按钮-大-danger</tz-button>
-    <tz-button size="large" type="danger" :disabled="true">按钮-大-disabled</tz-button>
+    <tz-button size="small">small</tz-button>
+    <tz-button size="normal">normal</tz-button>
+    <tz-button size="large">large</tz-button>
+    <tz-button size="large" type="default">default</tz-button>
+    <tz-button size="large" type="primary">primary</tz-button>
+    <tz-button size="large" type="danger">danger</tz-button>
+    <tz-button size="large" type="danger" disabled>disabled</tz-button>
   </div>
 </template>
 
